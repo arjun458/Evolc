@@ -11246,7 +11246,7 @@ body{
 
 
 .fa{
-        float: right;
+        float: center;
 }
 .collapsable{
 	width: 100%;
