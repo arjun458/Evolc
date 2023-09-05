@@ -57,3 +57,57 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+//acordion
+$(document).ready(function(){
+	$(".sec").eq(0).on('click, mouseenter',function(){
+		$(this).next(".collapsable").slideToggle();
+		$(this).children(".section").text("Excellence");
+		$(this).children(".fa").toggleClass("fa-minus");
+		
+	});
+	$(".sec").eq(1).on('click, mouseenter',function(){
+		$(this).next(".collapsable").slideToggle();
+		$(this).children(".section").text("Vision");
+		$(this).children(".fa").toggleClass("fa-minus");
+	});
+	$(".sec").eq(2).on('click, mouseenter',function(){
+		$(this).next(".collapsable").slideToggle();
+		$(this).children(".section").text("Openness");
+		$(this).children(".fa").toggleClass("fa-minus");
+	});
+    $(".sec").eq(3).on('click, mouseenter',function(){
+		$(this).next(".collapsable").slideToggle();
+		$(this).children(".section").text("Leaderhip");
+		$(this).children(".fa").toggleClass("fa-minus");
+	});
+    $(".sec").eq(4).on('click, mouseenter',function(){
+		$(this).next(".collapsable").slideToggle();
+		$(this).children(".section").text("Collaboration");
+		$(this).children(".fa").toggleClass("fa-minus");
+	});
+    $(".sec").mouseenter(function(){
+		$(this).addClass("z-depth-4");
+        $(".sec").eq(0).children(".section").text("Excellence");
+        $(".sec").eq(1).children(".section").text("Vision");
+        $(".sec").eq(2).children(".section").text("Openness");
+        $(".sec").eq(3).children(".section").text("Leadership");
+        $(".sec").eq(4).children(".section").text("Collaboration");
+		$(this).next(".collapsable").css({"width":"110%"});
+	});
+	$(".sec").mouseleave(function(){
+		$(this).removeClass("z-depth-4");
+		$(".sec").eq(0).children(".section").text("Excellence");
+		$(".sec").eq(1).children(".section").text("Vision");
+		$(".sec").eq(2).children(".section").text("Openness");
+        $(".sec").eq(2).children(".section").text("Leadership");
+        $(".sec").eq(2).children(".section").text("Collaboration");
+
+		$(this).next(".collapsable").css({"width":"100%"});
+	});
+
+});
+
+$('[data-toggle="collapse"]').on('mouseenter', function() {
+    $(this).parents('.card').find('.collapse').collapse('show');
+});
