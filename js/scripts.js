@@ -10,7 +10,7 @@
 window.addEventListener('DOMContentLoaded', event => {
 
     // Navbar shrink function
-    var navbarShrink = function () {
+   var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
         if (!navbarCollapsible) {
             return;
@@ -108,6 +108,4 @@ $(document).ready(function(){
 
 });
 
-$('[data-toggle="collapse"]').on('mouseenter', function() {
-    $(this).parents('.card').find('.collapse').collapse('show');
-});
+//navbar shrink
