@@ -10949,7 +10949,7 @@ hr.divider-light {
     padding-right: 0;
   }
   #mainNav.navbar-shrink {
-    height: 100px;
+    height: 75px;
     width: auto;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
