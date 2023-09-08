@@ -63,7 +63,6 @@ $(document).ready(function(){
 	$(".sec").eq(0).on('click, mouseenter',function(){
 		$(this).next(".collapsable").slideToggle();
 		$(this).children(".section").text("Excellence");
-		$(this).children(".fa").toggleClass("fa-minus");
 		
 	});
 	$(".sec").eq(1).on('click, mouseenter',function(){
@@ -99,10 +98,10 @@ $(document).ready(function(){
 		$(this).removeClass("z-depth-4");
 		$(".sec").eq(0).children(".section").text("Excellence");
 		$(".sec").eq(1).children(".section").text("Vision");
-		$(".sec").eq(2).children(".section").text("Openness");
+		$(".sec").eq(2).children(".section").text("Hi");
         $(".sec").eq(2).children(".section").text("Leadership");
         $(".sec").eq(2).children(".section").text("Collaboration");
-
+        $(this).next(".collapsable").slideToggle();
 		$(this).next(".collapsable").css({"width":"100%"});
 	});
 
