@@ -10905,10 +10905,8 @@ hr.divider-light {
 }
 
 #mainNav {
-  height: 100px;
-  padding: 0px 10px;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0);
-  background-color: transparent;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  background-color: #fff;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {
@@ -10951,6 +10949,8 @@ hr.divider-light {
     padding-right: 0;
   }
   #mainNav.navbar-shrink {
+    height: 100px;
+    width: auto;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     background-color: #fff;
   }
