@@ -3812,11 +3812,10 @@ textarea.form-control-lg {
 }
 
 .navbar-logo{
+  box-sizing: border-box;
   text-align: center;
   vertical-align: middle;
-  
-  box-sizing: border-box;
-  padding: 0px;
+  padding: 3px;
 }
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
