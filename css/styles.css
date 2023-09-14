@@ -3812,8 +3812,8 @@ textarea.form-control-lg {
 }
 
 .navbar-logo{
-  width: 100%;
-  height: 100%;
+  box-sizing: border-box;
+  width: calc(100%-30px);
 }
 .navbar-toggler {
   padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
