@@ -10981,13 +10981,13 @@ hr.divider-light {
   background: url(../assets/img/backgrounds/evolc\ web\ bg1.jpg);
 }
 .bg-img-2{
-  background: url(../assets/img/backgrounds/evolc\ web\ bg1.2.jpg);
+  background: url(../assets/img/backgrounds/bg3.jpg);
 }
 .carousal-image{
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 10% 50%;
+  background-position: 60% 100%;
 }
 
 header.masthead {
