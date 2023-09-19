@@ -11418,7 +11418,8 @@ body{
   border: 3px solid #fff ;
   color: #fff;
   text-decoration: none;
-
+  
+  bottom: 5px;
 }
 .service-icon i{
   margin: 2px 2px 2px 5px;
@@ -11435,14 +11436,14 @@ body{
 
 }
 
-
-
 .card-image-top{
   height: 250px;
   width: 100%;
   padding: 10px 10px 0px 10px;
 }
 .card{
+  display: flex;
+  flex-direction: column;
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
