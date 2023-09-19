@@ -629,6 +629,7 @@ progress {
   padding-right: calc(var(--bs-gutter-x) * 0.5);
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
+  align-items: stretch;
   margin-left: auto;
 }
 
@@ -4169,6 +4170,7 @@ textarea.form-control-lg {
   --bs-card-group-margin: 0.75rem;
   position: relative;
   display: flex;
+  align-items: stretch;
   flex-direction: column;
   min-width: 0;
   height: var(--bs-card-height);
@@ -11393,17 +11395,19 @@ body{
   border: 2px solid #70b9b0;
 }
 /*services*/
-#services{
+.services{
   background-color: rgba(236, 236, 236, 0.5);
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  align-items: stretch;
   font-family: "Nunito", sans-serif;
 
 }
-.services-btn{
+.services .services-btn{
   font-family: "Lato", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
+  background-color: #0d6efd;
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
@@ -11411,18 +11415,33 @@ body{
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 10px;
-  border: 2px solid #fff;
+  border: 3px solid #fff ;
   color: #fff;
   text-decoration: none;
 
 }
+.service-icon i{
+  margin: 2px 2px 2px 5px;
+  padding: 0 0 2px;
+  
+}
+.service-icon i.hover{
+  color: blue;
+}
+
+.services .services-btn:hover{
+  background-color: white;
+  color: #066173;
+
+}
 
 .card-image-top{
-  height: 200px;
+  height: 250px;
   width: 100%;
   padding: 10px 10px 0px 10px;
 }
 .card{
+  align-items: stretch;
   z-index: 1;
   overflow: hidden;
   transition: 0.5s;
