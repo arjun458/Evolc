@@ -11093,6 +11093,11 @@ fa-4x {
   font-size: 42px;
   font-weight: 700;
 }
+@media (max-width: 768px) {
+  #partners h2{
+    font-size: 30px;
+  }
+}
 
 .slick-slide{
   margin: 0px 20px;
