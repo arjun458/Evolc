@@ -168,6 +168,13 @@ section {
     padding-top: 20px;
 }
 
+@media (max-width: 880px){
+    #hero h2{
+        font-size: 14px;
+        
+    }
+}
+
 .quote {
     font-size: 1.4em;
     width: 80%;
