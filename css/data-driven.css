@@ -176,7 +176,7 @@ section {
     font-style: italic;
     color: #555555;
     padding: 1.2em 30px 1.2em 75px;
-    border-left: 8px solid rgba(1, 163, 229);;
+    border-left: 8px solid rgba(1, 163, 229);
     line-height: 1.6;
     position: relative;
     background: #EDEDED;
@@ -194,6 +194,15 @@ section {
     font-style: normal;
     font-weight: bold;
     margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+    .quote{
+        font-size: 1em;
+        padding: .8em 15px .8em 20px;
+
+    }
+    
 }
 
 .main-cont h1{
@@ -331,7 +340,7 @@ section {
     width: 100%;
     text-align: left;
     font: bold 16px sans-serif;
-    padding: 40px 20px 20px 40px;
+    padding: 40px 20px 20px 20px;
     margin-top: 0px;
 }
 
