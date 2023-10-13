@@ -11464,7 +11464,7 @@ body{
 	font-size: 2vw;
 	color: black;
 }
-@media only screen and (max-width: 425px){
+@media (max-width: 768px){
 	.main{
 		width: 90vw;
 	}
